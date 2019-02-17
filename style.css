@@ -1,0 +1,116 @@
+*, *:after, *:before {
+    box-sizing: border-box;
+    background-color: #f1f1f1
+}
+
+body, html, header, section, ul {
+    font-family: Arial, sans-serif;
+    background-color: #f1f1f1;
+}
+
+main {
+    margin: 0;
+    padding: 0;
+    padding-top: 40px;
+}
+
+form {
+    display: inline-block;
+    margin: 0;
+    padding: 0 10.5%;
+    width: 100%;
+    font-size: 0;
+}
+
+.block_content {
+    margin-top: 40px;
+    padding: 0 10.5%;
+}
+
+.bloki {
+    display: inline-block;
+    width: 30%;
+    height: 100%;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+}
+
+li {
+    list-style: none;
+    font-size: 12px;
+}
+
+.Spisok a {
+    display: inline-block;
+    margin: 0.3em 0;
+    padding: 0.75em;
+    width: 100%;
+    text-decoration: none;
+    background: rgba(118,117,128,0.05);
+}
+
+h3 {
+    display: inline-block;
+    vertical-align: middle;
+    background: none;
+}
+
+input[type="text"] {
+    border: 0;
+    width: 80%;
+    height: 1em;
+    font-size: 120px;
+    color: #ec5a62;
+}
+
+
+h3 {
+    margin-left: 0.5em;
+}
+
+input[type="submit"] {
+    box-sizing: border-box;
+    background-image: url("http://alexcss.github.io/huge-search/img/magnifier.svg");
+    border: 0;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    font-size: 120px;
+}
+
+.bloki:nth-child(2) {
+    margin:0 4%
+}
+
+.Spisok:nth-child(1) img {
+    display: inline-block;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+.Spisok:nth-child(n+2) img {
+    display: inline-block;
+    border-radius: 100%;
+    vertical-align: middle;
+}
+
+
+h1, h2, a, a:visited {
+    color: #c2c2c2;
+}
+
+a:hover {
+    background-color: rgba(118,117,128,0.1);
+    color: #ec5a62;
+}
+
+*:focus {
+    outline: none;
+    border: none;
+}
